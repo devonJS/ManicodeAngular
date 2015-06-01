@@ -10,6 +10,5 @@ angular.module('myApp.ngCsp', ['ngRoute'])
 
 }])
 
-.controller('ngCspCtrl', [function() {
-
+.controller('ngCspCtrl', ['$scope', function($scope) {
 }]);
