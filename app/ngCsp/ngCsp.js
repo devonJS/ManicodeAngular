@@ -7,6 +7,7 @@ angular.module('myApp.ngCsp', ['ngRoute'])
     templateUrl: '/ngCsp/ngCsp.html',
     controller: 'ngCspCtrl'
   });
+
 }])
 
 .controller('ngCspCtrl', [function() {
